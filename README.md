@@ -1,6 +1,7 @@
 # Introduction
 ```
-This is a superstore dataset, a kind of simulation where show extensive data analysis to give insights on how the business can improve its earnings while minimizing the losses.
+This is a superstore dataset, a kind of simulation where show extensive data analysis to give insights on 
+how the business can improve its earnings while minimizing the losses.
 ```
 
 # Superstore
@@ -24,7 +25,8 @@ pio.renderers.default = 'browser'
 
 ## Load dataset
 ```
-Superstore = pd.read_csv('C:\\Users\\User\\Desktop\\GIT_Projects\\Pyyhon_Practice\\SampleSuperstore\\SampleSuperstore.csv', index_col=False)
+Superstore = pd.read_csv('C:\\Users\\User\\Desktop\\GIT_Projects\\Pyyhon_Practice\\
+SampleSuperstore\\SampleSuperstore.csv', index_col=False)
 ```
 
 
