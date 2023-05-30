@@ -59,12 +59,12 @@ Superstore.drop(["Postal Code"],axis=1, inplace = True)
 Superstore
 ```
 
-# Unit Sales calculation
+## Unit Sales calculation
 ```
 Superstore['UnitPrice'] = Superstore.Sales / Superstore.Quantity
 ```
 
-# Unit Profit calculation
+## Unit Profit calculation
 ```
 Superstore['UnitProfit'] = Superstore.Profit / Superstore.Quantity 
 ```
