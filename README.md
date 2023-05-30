@@ -26,9 +26,6 @@ pio.renderers.default = 'browser'
 Superstore = pd.read_csv('C:\\Users\\User\\Desktop\\GIT_Projects\\Pyyhon_Practice\\
 SampleSuperstore\\SampleSuperstore.csv', index_col=False)
 ```
-
-
-## Check NULL
 ```
 Superstore
 ```
