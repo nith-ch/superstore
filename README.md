@@ -1,9 +1,8 @@
-
-import numpy as np # linear algebra
+# Superstore
+```import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-#Importing KMeans from sklearn
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
@@ -14,11 +13,11 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report
 import plotly.express as px
 import plotly.io as pio
-pio.renderers.default = 'browser'
+pio.renderers.default = 'browser'```
 
-#Load dataset
-Superstore = pd.read_csv('C:\\Users\\User\\Desktop\\GIT_Projects\\Pyyhon_Practice\\SampleSuperstore\\SampleSuperstore.csv', index_col=False)
-Superstore
+## Load dataset
+```Superstore = pd.read_csv('C:\\Users\\User\\Desktop\\GIT_Projects\\Pyyhon_Practice\\SampleSuperstore\\SampleSuperstore.csv', index_col=False)
+Superstore```
 
-#Check NULL
-Superstore.isnull().sum()
+## Check NULL
+```Superstore.isnull().sum()```
