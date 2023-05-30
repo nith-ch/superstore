@@ -17,10 +17,9 @@ pio.renderers.default = 'browser'
 ```
 
 ## Load dataset
-```Superstore = pd.read_csv('C:\\Users\\User\\Desktop\\GIT_Projects\\Pyyhon_Practice\\SampleSuperstore\\SampleSuperstore.csv', index_col=False)
-Superstore
-```
+```Superstore = pd.read_csv('C:\\Users\\User\\Desktop\\GIT_Projects\\Pyyhon_Practice\\SampleSuperstore\\SampleSuperstore.csv', index_col=False)```
+```Superstore```
+
 
 ## Check NULL
-```Superstore.isnull().sum()
-```
+```Superstore.isnull().sum()```
