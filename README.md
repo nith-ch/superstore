@@ -1,8 +1,6 @@
 # Introduction
-```
 This is a superstore dataset, a kind of simulation where show extensive data analysis to give insights on 
 how the business can improve its earnings while minimizing the losses.
-```
 
 # Superstore
 ```
