@@ -1,5 +1,6 @@
 # Superstore
-```import numpy as np
+```
+import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -17,9 +18,43 @@ pio.renderers.default = 'browser'
 ```
 
 ## Load dataset
-```Superstore = pd.read_csv('C:\\Users\\User\\Desktop\\GIT_Projects\\Pyyhon_Practice\\SampleSuperstore\\SampleSuperstore.csv', index_col=False)```
+```
+Superstore = pd.read_csv('C:\\Users\\User\\Desktop\\GIT_Projects\\Pyyhon_Practice\\SampleSuperstore\\SampleSuperstore.csv', index_col=False)
+```
 
 
 ## Check NULL
-```Superstore.isnull().sum()
+```
+Superstore.isnull().sum()
+```
+
+## Check types
+```
+Superstore.info()
+Superstore.head()
+Superstore.shape
+```
+
+## Check Duplicate Records
+```
+Superstore.duplicated().sum()
+Superstore.drop_duplicates(inplace= True)
+
+print(set(Superstore['State'].unique()))
+```
+
+#Remove unwanted columns
+```
+Superstore.drop(["Postal Code"],axis=1, inplace = True)
+Superstore
+```
+
+# Unit Sales calculation
+```
+Superstore['UnitPrice'] = Superstore.Sales / Superstore.Quantity
+```
+
+# Unit Profit calculation
+```
+Superstore['UnitProfit'] = Superstore.Profit / Superstore.Quantity 
 ```
