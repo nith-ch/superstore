@@ -34,8 +34,7 @@ Superstore
 ```
 Superstore.isnull().sum()
 ```
-
-<img src="https://raw.githubusercontent.com/nith-ch/superstore/blob/master/pic/check_null.png" height="130" width="585">
+<img src="https://raw.githubusercontent.com/nith-ch/superstore/blob/master/pic/check_null.png" height="372" width="408">
 
 ## Check types
 ```
