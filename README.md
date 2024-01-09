@@ -44,6 +44,7 @@ Superstore.info()
 ```
 Superstore.head()
 ```
+
 ```
 Superstore.shape
 ```
