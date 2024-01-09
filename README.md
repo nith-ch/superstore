@@ -43,6 +43,8 @@ Superstore.info()
 <img src="https://raw.githubusercontent.com/nith-ch/superstore/master/pic/info.png" height="372" width="408">
 
 Superstore.head()
+```
+<img src="https://raw.githubusercontent.com/nith-ch/superstore/master/pic/info.png" height="372" width="408">
 
 Superstore.shape
 ```
