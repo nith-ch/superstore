@@ -44,7 +44,7 @@ Superstore.info()
 
 Superstore.head()
 ```
-
+```
 Superstore.shape
 ```
 <img src="https://raw.githubusercontent.com/nith-ch/superstore/master/pic/shape.png" height="52" width="248">
